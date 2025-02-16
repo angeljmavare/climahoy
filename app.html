@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta Content-Type="text/javascript" ; charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Ahora (Capital de País)</title>
+    <link rel="icon" href="images/iconoclima.png" type="image/png">
+    <link rel="stylesheet" href="app.css" type="text/css">
+</head>
+
+<body>
+    <div id="container">
+
+        <form id="searchForm">
+            <div>
+                <center>
+                    <div class="titleContainer">
+                        <img src="images/iconoclima.png" class="iconoClima" alt="iconoclima">
+                        <h1 class="title"> Clima Ahora (Capital de País)</h1>
+                    </div>
+                </center>
+
+            </div>
+            <div>
+                <center>
+                    <label class="label1" for="searchInput">Buscar Ciudad:</label>
+                    <input type="text" id="searchInput" placeholder="Ingresa la Ciudad">
+                    <div id="suggestions" class="suggestions"></div>
+                    <button type="submit" id="searchButton">Buscar</button>
+                </center>
+            </div>
+
+            <div class="block">
+                <div class="blockk">
+                    <div class="label">País:</div>
+                    <div id="country"></div>
+                </div>
+                <div class="blockk">
+                    <div class="label">Ciudad:</div>
+                    <div id="location"></div>
+                </div>
+                <div class="blockk">
+                    <div class="label">Fecha:</div>
+                    <div id="date"></div>
+
+                </div>
+                <div class="blockk">
+                    <div class="label">Descripción:</div>
+                    <div id="description"></div>
+                </div>
+
+            </div>
+            <div class="block">
+                <div class="information-container">
+                    <div class="label hume">Humedad:</div>
+                    <div class="info humi" id="humidity"></div>
+                </div>
+                <div class="information-container">
+                    <div class="label">Presión:</div>
+                    <div class="info" id="pressure"></div>
+                </div>
+                <div class="information-container">
+                    <div class="label">Temperatura:</div>
+                    <div class="info" id="temperature"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+    <script src="cities.js"></script>
+    <footer id="footer">
+        <p>&copy; 2025 AngelJMavare. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    ;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-left: 5px;
+    font-size: 22px;
+    color: white;
+}
+
+#searchInput {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 155px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #691313ea;
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.container .block {
+    padding: 20px;
+    display: flex;
+}
+
+.block {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: yellow;
+}
+
+.label1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.label  {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.hume .humi{
+    margin-top: 10px;
+}
+.blockk {
+    font-size: 18px;
+    display: flex;
+    color: white;
+}
+
+.information-container {
+    display: flex;
+}
+
+.info {
+    margin-left: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#country {
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+#location {
+    font-size: 18px;
+    margin-left: 77px;
+}
+
+#date {
+    font-size: 18px;
+    margin-left: 85px;
+}   
+
+#description {
+    font-size: 18px;
+    margin-left: 34px;
+}
+#humidity {
+    font-size: 18px;
+    margin-left: 55px;
+    color: yellow;
+}
+#pressure {
+    font-size: 18px;
+    margin-left: 71px;
+    color: yellow;
+}
+#temperature {
+    font-size: 18px;
+    margin-left: 25px;
+    color: yellow;
+}
+
+/* Sugerencias de Ciudades  */
+.suggestions {
+    margin-left: 162px;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    width: 190px;
+}
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+#footer {
+    background-color: #691313ea;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed; 
+    bottom: 0;                
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(255, 255, 255, 0.1);
+}
+
+.iconoClima {
+    width: 40px;
+    height: 40px;
+}
