@@ -1,0 +1,8 @@
+# Ignora todos los archivos .log
+*.log
+
+# Ignora la carpeta de configuración local
+config/
+
+# Ignora el archivo de configuración específico
+my_config_file.txt
